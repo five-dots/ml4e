@@ -1,13 +1,9 @@
-- [ml4e: Machine Learning for Everyone](#sec-1)
-  - [Installation](#sec-1-1)
-  - [Quick Introduction](#sec-1-2)
 
-
-# ml4e: Machine Learning for Everyone<a id="sec-1"></a>
+# ml4e: Machine Learning for Everyone
 
 Utilities make machine learning projects easier. Note this project is highly development state.
 
-## Installation<a id="sec-1-1"></a>
+## Installation
 
 `ml4e` is not available through CRAN. To install from github, use:
 
@@ -15,7 +11,7 @@ Utilities make machine learning projects easier. Note this project is highly dev
 devtools::install_github("five-dots/ml4e")
 ```
 
-## Quick Introduction<a id="sec-1-2"></a>
+## Quick Introduction
 
 ```R
 library(ml4e)
