@@ -1,0 +1,92 @@
+Package: ml4e
+Title: Machine Learning for Everyone
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Shun",
+           family = "Asai",
+           role = c("aut", "cre", "cph"),
+           email = "syun.asai@gmail.com")
+Description: Machine learning meta package to make ML projects easier.
+License: MIT + file LICENSE
+URL: https://github.com/five-dots/ml4e
+BugReports: https://github.com/five-dots/ml4e/issues
+Encoding: UTF-8
+LazyData: true
+Imports:
+    Dict,
+    R6,
+    butcher,
+    crayon,
+    dials,
+    dplyr,
+    furrr,
+    future,
+    fuzzyjoin,
+    glmnet,
+    kknn,
+    magrittr,
+    pacman,
+    purrr,
+    rlang,
+    rsample,
+    scales,
+    stringr,
+    tibble,
+    tidyr,
+    yardstick,
+Suggests: 
+    Matrix,
+    RGF,
+    catboost,
+    extraTrees,
+    keras,
+    kernlab,
+    lightgbm,
+    rBayesianOptimization,
+    ranger,
+    recipes,
+    rpart,
+    testthat,
+    xgboost,
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Collate: 
+    'CV.R'
+    'Datasets.R'
+    'FitParamSpec.R'
+    'FitParamSpecs.R'
+    'FitParams.R'
+    'Formulas.R'
+    'Measure.R'
+    'Model.R'
+    'Models.R'
+    'helper_assertion.R'
+    'Option.R'
+    'Options.R'
+    'PreprocCalls.R'
+    'Project.R'
+    'ResampleCalls.R'
+    'SearchBase.R'
+    'SearchBayes.R'
+    'SearchGrid.R'
+    'SearchRandom.R'
+    'Seeds.R'
+    'Task.R'
+    'engine_RGF.R'
+    'engine_catboost.R'
+    'engine_extraTrees.R'
+    'engine_glm.R'
+    'engine_glmnet.R'
+    'engine_keras.R'
+    'engine_kernlab.R'
+    'engine_kknn.R'
+    'engine_lightgbm.R'
+    'engine_lm.R'
+    'engine_ranger.R'
+    'engine_rpart.R'
+    'engine_xgboost.R'
+    'helper.R'
+    'helper_data.R'
+    'helper_print.R'
+    'reexports.R'
+    'zzz.R'
